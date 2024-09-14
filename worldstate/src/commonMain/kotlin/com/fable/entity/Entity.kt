@@ -1,6 +1,6 @@
 package com.fable.entity
 
-import com.fable.event.DefaultEventObserver
 import com.fable.event.EventObserver
+import com.fable.status.StatusContainer
 
-abstract class Entity : EventObserver by DefaultEventObserver()
+interface Entity : EventObserver, StatusContainer
