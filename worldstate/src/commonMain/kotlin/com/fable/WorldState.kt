@@ -1,7 +1,6 @@
 package com.fable
 
-import com.fable.entity.EntityContainer
+import com.fable.entity.EntityHost
+import com.fable.scene.SceneContainer
 
-class WorldState: EntityContainer {
-
-}
+interface WorldState: EntityHost, SceneContainer
