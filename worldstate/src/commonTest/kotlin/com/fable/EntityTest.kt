@@ -1,5 +1,7 @@
-package com.cyoa
+package com.fable
 
+import com.fable.entity.Entity
+import com.fable.event.Event
 import kotlin.test.Test
 import kotlin.test.assertTrue
 

@@ -1,8 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="worldstate-jvm">
     <output-path>$PROJECT_DIR$/worldstate/build/libs</output-path>
-    <root id="archive" name="worldstate-jvm.jar">
-      <element id="module-output" name="cyoa.worldstate.jvmMain" />
-    </root>
+    <root id="archive" name="worldstate-jvm.jar" />
   </artifact>
 </component>

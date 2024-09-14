@@ -11,7 +11,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "cyoa"
+rootProject.name = "Fable"
 
-include(":cyoa")
+//include(":cyoa")
 include(":worldstate")
