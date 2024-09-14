@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="cyoa-jvm">
+    <output-path>$PROJECT_DIR$/cyoa/build/libs</output-path>
+    <root id="archive" name="cyoa-jvm.jar">
+      <element id="module-output" name="cyoa.cyoa.jvmMain" />
+    </root>
+  </artifact>
+</component>

@@ -13,4 +13,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "cyoa"
 
+include(":cyoa")
 include(":worldstate")

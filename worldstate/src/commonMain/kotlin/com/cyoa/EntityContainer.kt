@@ -8,11 +8,11 @@ abstract class EntityContainer {
         return entities.filterIsInstance<T>().firstOrNull()
     }
 
-    fun addEntity(entity: Entity) {
+    open fun addEntity(entity: Entity) {
         entities.add(entity)
     }
 
-    fun removeEntity(entity: Entity) {
+    open fun removeEntity(entity: Entity) {
         entities.remove(entity)
     }
 }
